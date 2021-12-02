@@ -41,8 +41,8 @@ public class RegistrationPage extends TestBase {
 	public WebElement radiobtn1;
 	@FindBy(xpath="//input[@value='Submit the Information']")
 	public WebElement radiobtn2;
-	@FindBy(xpath="//span[@class='cssButton normal_button button  button_continue']")
-	public WebElement btn;
+	@FindBy(xpath="//input[@value='Submit the Information']")
+	public WebElement submitBtn;
 	
 	public RegistrationPage(WebDriver driver) {
 		this.driver = driver;
@@ -70,7 +70,7 @@ public class RegistrationPage extends TestBase {
 		clickData1(checkBoxbtn1);
 		clickData1(radiobtn1);
 		clickData1(radiobtn2);
-		clickData1(btn);
+		clickData1(submitBtn);
 }
 	public void sendData1(WebElement element, String value) {
 		Actions act = new Actions(driver);
