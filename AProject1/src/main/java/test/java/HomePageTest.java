@@ -1,4 +1,4 @@
-package com.PageDistribution.tests;
+package test.java;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
@@ -45,7 +45,7 @@ public class HomePageTest extends TestBase{
 	  { 
 		  String actualURL=driver.getCurrentUrl(); 
 		  
-		  String expectedURL="http://ingecnotechnologies.com/other/zenith/index.php?main_page=index";
+		  String expectedURL="http://ingecnotechnologies.com/other/zenith/index.php?main_page=shopping_cart";
 	  
 	  Assert.assertEquals(actualURL, expectedURL); }
 }

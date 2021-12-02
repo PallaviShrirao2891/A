@@ -1,4 +1,4 @@
-package com.PageDistribution.tests;
+package test.java;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;

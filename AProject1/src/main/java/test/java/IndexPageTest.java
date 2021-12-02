@@ -1,4 +1,4 @@
-package com.PageDistribution.tests;
+package test.java;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
@@ -8,7 +8,6 @@ import org.testng.annotations.Test;
 
 import com.PageDistribution.pages.IndexPage;
 import com.TestBases.TestBase;
-import com.aventstack.extentreports.model.Log;
 
 public class IndexPageTest extends TestBase {
 	WebDriver driver;
