@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
+
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.OutputType;
@@ -15,11 +16,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 import com.PageDistribution.pages.LoginPage;
-import com.utility.PropertiesUtils;
 import com.utility.WaitUtility;
 import com.utility.WebEventListener;
 
